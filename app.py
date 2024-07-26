@@ -20,6 +20,3 @@ def upload():
         return "Arquivo recebido com sucesso!"
     else:
         return "Apenas arquivos PDF são permitidos!"
-
-if __name__ == '__main__':
-    app.run(debug=True)
